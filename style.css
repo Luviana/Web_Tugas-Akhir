@@ -1,0 +1,43 @@
+.navbar {
+   background-color: transparent;
+   border-color: transparent;
+   position: absolute;
+}
+
+.navbar li {
+	color: #000;
+}
+
+.navbar .navbar-nav {
+ 	display: inline-block;
+ 	float: none;
+ 	vertical-align: top;
+}
+
+.navbar-nav>li>a {
+	color: white !important;
+	font-size: 13px;
+}
+
+#banner {
+	background-image: url(./img/banner1.png);
+	height: 810px;
+}
+
+.btn {
+	background-color: transparent;
+	border-radius: 0;
+	color: white;
+	border-color: white;
+	font-size: 18px;
+	width: 200px;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.left, .right {
+	background-image: none !important;
+}
